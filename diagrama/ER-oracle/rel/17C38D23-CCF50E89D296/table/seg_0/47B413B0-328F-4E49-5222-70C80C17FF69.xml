@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47B413B0-328F-4E49-5222-70C80C17FF69" name="GRUPO_VENDEDOR">
+<sourceDDLFile>ddl grupo cadastro.sql</sourceDDLFile>
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<importedID>467F0725-B510-ADDB-4E66-50DD46A0145D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_grupo_vendedor" id="51669B17-7730-8875-2AC0-271323E88750">
+<sourceDDLFile>ddl grupo cadastro.sql</sourceDDLFile>
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<importedID>37F06D5D-9310-9717-E617-BA3129B116BD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDDF5F1B-82C3-92EA-451C-88B9394565C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nrovendedor" id="637A7F52-448D-CA76-BCE2-61D3E5233929">
+<sourceDDLFile>ddl grupo cadastro.sql</sourceDDLFile>
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<importedID>57866E4D-E987-2529-A2C3-00F8E6C45381</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDDF5F1B-82C3-92EA-451C-88B9394565C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_grupo_cadastro" id="6373B39D-B3E9-393C-4262-A704B5882019">
+<sourceDDLFile>ddl grupo cadastro.sql</sourceDDLFile>
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<importedID>53309740-B78C-4205-20A5-E98203058561</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>BDDF5F1B-82C3-92EA-451C-88B9394565C2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1859E5D4-0BF7-B9BD-B760-F75061C2CD01" referredColumn="6774384E-7A76-5D95-0167-310FAFDA0953"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="918BAA53-9F06-F5B0-514C-3C339988D782" name="GRUPO_VENDEDOR_PK">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:56:18 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51669B17-7730-8875-2AC0-271323E88750"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D95AFC5E-5C8B-ABC4-2048-6D1FAFFA1499" name="GRUPO_CADASTRO3_FK">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6373B39D-B3E9-393C-4262-A704B5882019"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

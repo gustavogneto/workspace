@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUTO_GRUPO" directorySegmentName="seg_0" id="221505F2-168E-2923-DF48-9F8B76E8207C">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E983DCDC-AFD1-FA01-2CFA-747B492AC174</segment>
+<tableSpace>AB0831A1-CC03-F191-4B8A-BC235C861344</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="status" id="3A931AA9-B988-0CB4-3690-E5BE55AD3BEF">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_produto_grupo" id="46E22169-D2A1-D129-D54E-454C8C4409FE">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="seqproduto" id="81BFD277-638A-0498-6E0D-1416871A1A71">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_grupo_cadastro" id="D8A2B63F-C307-EECC-2FDB-36565F835CEF">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GRUPO_CADASTRO_FK" id="A9B02C5D-5AE3-6CE3-E9A9-C024DC1B0D52">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUTO_GRUPO_PK" id="61D7DFF5-9280-803B-196B-621FDD6F6BDB">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<logging></logging>
+<segment>C4DBB66F-8062-0D95-F7EE-D1B308775B95</segment>
+<tableSpace>AB0831A1-CC03-F191-4B8A-BC235C861344</tableSpace>
+<indexSegment>C4DBB66F-8062-0D95-F7EE-D1B308775B95</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

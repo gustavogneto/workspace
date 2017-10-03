@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SegmentOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SegmentOraclev10g" name="Storage1" directorySegmentName="seg_0" id="C4DBB66F-8062-0D95-F7EE-D1B308775B95">
+<sourceDDLFile>ddl grupo cadastro.sql</sourceDDLFile>
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:54 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<initrans>2</initrans>
+<scInitialExtent>65536</scInitialExtent>
+<scNextExtent>1048576</scNextExtent>
+</SegmentOraclev10g>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="ddl grupo cadastro_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_1" id="89BCBF8B-1E70-8BAA-204B-579A4AABBD5C">
+         <createdBy>ggomes</createdBy>
+         <createdTime>2017-09-27 12:48:59 UTC</createdTime>
+         <ownerDesignName>ER-oracle</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>ddl grupo cadastro_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="BDDF5F1B-82C3-92EA-451C-88B9394565C2">
+         <createdBy>ggomes</createdBy>
+         <createdTime>2017-09-27 12:48:59 UTC</createdTime>
+         <ownerDesignName>ER-oracle</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>ddl grupo cadastro_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60" id="D47EAAC1-E3BC-8297-C5ED-390A6C85E38C">
+         <createdBy>ggomes</createdBy>
+         <createdTime>2017-09-27 12:48:59 UTC</createdTime>
+         <ownerDesignName>ER-oracle</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>60</dataTypeSize>
+         <fileName>ddl grupo cadastro_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

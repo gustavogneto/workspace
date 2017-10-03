@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="230DE890-7190-C84F-2EBA-311409E7B446" containerWithKeyObject="9AE4FBEF-15C1-17BC-FB0A-17568D9E4C9F" localFKIndex="9F8A3C09-5D9F-B595-DE85-2F2E1204A8D2" name="GRUPO_CADASTRO2_FK">
+<sourceDDLFile>ddl grupo cadastro.sql</sourceDDLFile>
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<importedID>9408F640-DD9F-88DF-84D6-C3C2594A631A</importedID>
+<referredTableLongName>GRUPO_CADASTRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA6E79C5-882F-FF2E-12F8-595483A953B7</referredTableID>
+<keyObject>9040793F-2711-54A2-11CC-91EA470CAE29</keyObject>
+<referredKeyID>9040793F-2711-54A2-11CC-91EA470CAE29</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_grupo_cadastro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

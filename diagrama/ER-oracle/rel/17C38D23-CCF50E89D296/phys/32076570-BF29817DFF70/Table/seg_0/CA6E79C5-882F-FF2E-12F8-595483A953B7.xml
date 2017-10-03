@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GRUPO_CADASTRO" directorySegmentName="seg_0" id="CA6E79C5-882F-FF2E-12F8-595483A953B7">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E983DCDC-AFD1-FA01-2CFA-747B492AC174</segment>
+<tableSpace>AB0831A1-CC03-F191-4B8A-BC235C861344</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_grupo_cadastro" id="6774384E-7A76-5D95-0167-310FAFDA0953">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="desc_grupo" id="72EE01F6-E952-77E6-3ADE-1CE46D8BAB4E">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="status_grupo" id="78D3E212-05B9-2468-C4A3-B382520B6810">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="nro_empresa" id="F473300E-5418-CB03-FD76-BF314DF46631">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GRUPO_CADASTRO_PK" id="9040793F-2711-54A2-11CC-91EA470CAE29">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<logging></logging>
+<segment>C4DBB66F-8062-0D95-F7EE-D1B308775B95</segment>
+<tableSpace>AB0831A1-CC03-F191-4B8A-BC235C861344</tableSpace>
+<indexSegment>C4DBB66F-8062-0D95-F7EE-D1B308775B95</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

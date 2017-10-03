@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER-oracle" id="2B433187-B620-AC63-BE4D-A16DDC33927A" version="3.5">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:21 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2B433187-B620-AC63-BE4D-A16DDC33927A</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2C868279-238E-EED7-03B7-DB0EC5218E91">
+<designStoragePath>C:\ddl grupo cadastro</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

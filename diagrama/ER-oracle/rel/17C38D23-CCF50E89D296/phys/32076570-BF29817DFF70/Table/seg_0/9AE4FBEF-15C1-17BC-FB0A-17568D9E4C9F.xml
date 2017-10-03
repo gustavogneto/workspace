@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="GRUPO_FORNECEDOR" directorySegmentName="seg_0" id="9AE4FBEF-15C1-17BC-FB0A-17568D9E4C9F">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E983DCDC-AFD1-FA01-2CFA-747B492AC174</segment>
+<tableSpace>AB0831A1-CC03-F191-4B8A-BC235C861344</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_grupo_cadastro" id="3769B758-542A-7F17-1F4B-AE4CD4A3451C">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="seqfornecedor" id="4589CF56-7966-1DB4-5A06-7F7D6F1445D4">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_grupo_fornecedor" id="626E2FB3-7CDC-FF19-7D81-35543A035A2E">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GRUPO_CADASTRO2_FK" id="9F8A3C09-5D9F-B595-DE85-2F2E1204A8D2">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GRUPO_FORNECEDOR_PK" id="D5C98750-0D2F-4C49-BE4B-8E8509D82AEB">
+<createdBy>ggomes</createdBy>
+<createdTime>2017-09-27 12:48:59 UTC</createdTime>
+<ownerDesignName>ER-oracle</ownerDesignName>
+<logging></logging>
+<segment>C4DBB66F-8062-0D95-F7EE-D1B308775B95</segment>
+<tableSpace>AB0831A1-CC03-F191-4B8A-BC235C861344</tableSpace>
+<indexSegment>C4DBB66F-8062-0D95-F7EE-D1B308775B95</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
