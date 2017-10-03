@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NCReport version="2.11.1" name="Untitled" type="report">
+    <options>
+        <encoding>UTF-8</encoding>
+        <language>00</language>
+        <langrole>0</langrole>
+        <orientation>landscape</orientation>
+        <pagesize width="297.000" height="210.000">A4</pagesize>
+        <topmargin>15</topmargin>
+        <bottommargin>15</bottommargin>
+        <leftmargin>20</leftmargin>
+        <rightmargin>20</rightmargin>
+        <fontname>Arial</fontname>
+        <fontsize>10</fontsize>
+        <backcolor>#ffffff</backcolor>
+        <columns>0</columns>
+        <columnspace>0</columnspace>
+        <zoneSpacing>0</zoneSpacing>
+        <zoneBreak>false</zoneBreak>
+        <htmlOpt>{DEFAULT}</htmlOpt>
+    </options>
+    <datasources>
+        <datasource id="DataSource1" type="sql" openRole="begin" source="static" connection="internal" parentID="" connID="FASTSELLER">select 
+
+A.u_pkey,
+A.u_orgvenda,
+A.s_ped_c5,
+A.s_ped_polibras,
+A.t_dtainclusao,
+A.s_codproduto,
+A.s_descricao,
+A.s_nomerazao,
+A.s_fantasia,
+A.s_nf_ped,
+A.s_nf,
+A.s_cgo,
+A.s_codvendedor,
+A.d_pedido,
+A.d_qtdcorte,
+A.s_sitproduto,
+A.d_estoque
+
+from syncon.tp_cadan_rel_corte
+JOIN ftsl_tvar t1 ON ( trim(substr(t1.s_v3, length(ltrim(rtrim(t1.s_v3)))-3,6)) = a.s_codvendedor 
+AND t1.u_grp = emp2long('FTSL') AND t1.u_id  = 1279740238 AND t1.u_ord = 2 )</datasource>
+    </datasources>
+    <variables/>
+    <pageheader id="PH" height="13.494">
+        <label id="ZXVG7" zValue="0" posX="1.587" posY="0.000" width="88.371" height="12.171" fontName="Aharoni" fontSize="28" fontWeight="bold" alignment="1">Relatório de Cortes</label>
+        <line id="KTX70" zValue="1" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="1.587" fromY="12.700" toX="254.000" toY="12.700"/>
+        <line id="Z8LEE" zValue="2" lineColor="#000000" lineStyle="solid" lineWidth="0.100" fromX="1.587" fromY="11.112" toX="254.000" toY="11.112"/>
+        <field id="OZHJI" zValue="3" posX="203.200" posY="6.350" width="47.625" height="4.762" resource="datasource" fontName="Arial" fontSize="10" type="txt" ftype="ds" arg="">DataSource1.t_dtainclusao</field>
+    </pageheader>
+    <pagefooter id="PF" height="10.000"/>
+    <details>
+        <detail id="Detail1" height="33.867" datasource="DataSource1">
+            <items>
+                <field id="NDMWE" zValue="0" posX="0.000" posY="6.350" width="47.625" height="4.762" resource="datasource" fontName="Arial" fontSize="10" type="txt" ftype="ds" arg="">DataSource1.s_ped_polibras</field>
+                <field id="SR64J" zValue="1" posX="50.800" posY="6.350" width="47.625" height="4.762" resource="datasource" fontName="Arial" fontSize="10" type="txt" ftype="ds" arg="">DataSource1.s_ped_c5</field>
+                <field id="INXV8" zValue="2" posX="101.600" posY="6.350" width="47.625" height="4.762" resource="datasource" fontName="Arial" fontSize="10" type="txt" ftype="ds" arg="">DataSource1.s_codproduto</field>
+                <field id="A2FC4" zValue="3" posX="150.812" posY="6.350" width="47.625" height="4.762" resource="datasource" fontName="Arial" fontSize="10" type="txt" ftype="ds" arg="">DataSource1.s_descricao</field>
+                <field id="EU5YN" zValue="4" posX="0.000" posY="0.000" width="47.625" height="4.762" resource="datasource" fontName="Arial" fontSize="10" type="txt" ftype="ds" arg="">DataSource1.s_fantasia</field>
+                <field id="KM6PR" zValue="5" posX="200.025" posY="6.350" width="47.625" height="4.762" resource="datasource" fontName="Arial" fontSize="10" type="txt" ftype="ds" arg="">DataSource1.s_nf_ped</field>
+            </items>
+        </detail>
+    </details>
+</NCReport>
